@@ -1,0 +1,10 @@
+level=INFO method=POST path=/score status=200 human_review=False
+level=INFO method=POST path=/score status=200 human_review=True
+level=WARNING method=POST path=/score status=400 human_review=False
+level=WARNING method=POST path=/score status=422 human_review=False
+level=WARNING method=POST path=/score status=422 human_review=False
+level=WARNING method=POST path=/score status=400 human_review=False
+level=INFO method=POST path=/case status=200 human_review=True
+level=INFO method=POST path=/case status=200 human_review=True
+level=INFO method=POST path=/case status=200 human_review=True
+level=ERROR method=POST path=/case status=503 human_review=False
