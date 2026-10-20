@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 The assignment specifies the required pandas and scikit-learn version ranges in `requirements.txt`. Use a compatible Python environment if your installed versions cannot satisfy those pins.
 
-## Reproduce the Project
+## Reproduce 
 
 Run commands from the repository root.
 
