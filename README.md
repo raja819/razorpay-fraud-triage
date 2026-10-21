@@ -33,7 +33,6 @@ razorpay-fraud-triage/
 ├── retrieval_queries.json
 ├── case_scenarios.json
 ├── transactions_raw.csv
-├── model_artifact.pkl
 ├── service.log
 ├── requirements.txt
 ├── .gitignore
