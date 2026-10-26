@@ -90,7 +90,7 @@ This step audits duplicates, category spellings, missing values, amount ranges, 
 python train.py
 ```
 
-This step performs a stratified train/validation/test split, trains and compares candidate models, selects a threshold, reports test metrics, and saves the fitted model and preprocessing metadata in `model_artifact.pkl`.
+This step performs stratified train, validation, and test splitting, compares candidate models, evaluates class-imbalance strategies, selects an alert threshold, and reports test-set performance.
 
 ### 4. Test policy retrieval
 
